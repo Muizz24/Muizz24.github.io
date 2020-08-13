@@ -65,6 +65,27 @@ html {
     font-weight: bold;
 }
 
+.subTitleContactInfo-seperator{
+    width: 5%;
+    color: #ffff !important;
+    font-weight: bold;
+}
+
+.subTitleContactInfo-seperatorFront{
+    width: 5%;
+    color: #ffff !important;
+    font-weight: bold;
+}
+
+.centerContacts {
+    text-align: center;
+}
+
+.subTitleContactInfo{
+    color: #ffff !important;
+    font-weight: bold;
+}
+
 .nav-item{
     color: #ffff;
     padding: 0 10px;
@@ -171,7 +192,8 @@ item-text{
 .single-doBlock{
     border: 1px solid #ddd;
     padding: 30px 20px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
 }
 
 .single-doBlock h2{
@@ -184,7 +206,11 @@ item-text{
 .single-doBlock:hover{
     background: #262626;
     color: #ffff;
-    transition: .6s
+    transition: .3s
+}
+
+.spacer{
+    padding: 150px;
 }
 
 /*contact section*/
