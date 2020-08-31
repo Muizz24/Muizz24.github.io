@@ -215,5 +215,6 @@ item-text{
 
 /*contact section*/
 .contact-area{
-    background: #ffff;
+    text-align: center;
+    color: #ffffff;
 }
