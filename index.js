@@ -1,4 +1,5 @@
 var defaultTitle = "";
+
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
@@ -13,8 +14,22 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 '       <img class="about-img" src="media/FranticLogo.PNG" alt="FranticLogo">' +
 '   </div>' +
 '</div>';
+
 var softwareDevContent = '';
-var webDevContent = '';
+var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
+'<div class="row">' +
+'   <div class="col-sm-7">' +
+'        <div class="d-flex flex-column align-content-center card-body">' +
+'            <h5 class="card-title">Web Gallery</h5>' +
+'            <p class="card-text">Localized gallery system capable of running a website that can upload images, store comments for those images, and allow users to own their own galleries. Similiar to how Instagram functions, users are allowed to view other user galleries, delete their own images or comments on their images, and make accounts. All code follows a REST API and communicates through the DOM with clean HTML and CSS while storing user data, images, and comments through a nedbeans database.<br><br><br></p>' +
+'            <a href="https://github.com/Muizz24/Web-Gallery" class="btn btn-primary">Github Page</a>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Nedbeans, REST, DOM, HTML, CSS, Javascript, Node.js, nodemon, express.js, crypt. </i> </p>' +
+'        </div>' +
+'   </div>' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
+'   </div>' +
+'</div>';
 
 $("#SoftwareExpPanel").hover(
     function() {
