@@ -191,7 +191,6 @@ item-text{
 
 .single-doBlock{
     border: 1px solid #ddd;
-    padding: 30px 20px;
     width: 100%;
     height: auto;
 }
@@ -203,12 +202,6 @@ item-text{
     font-weight: bold;
 }
 
-.single-doBlock:hover{
-    background: #262626;
-    color: #ffff;
-    transition: .3s
-}
-
 .spacer{
     padding: 150px;
 }
@@ -217,4 +210,10 @@ item-text{
 .contact-area{
     text-align: center;
     color: #ffffff;
+}
+
+.list-block:hover{
+    background: #262626;
+    color: #ffff;
+    transition: .3s
 }

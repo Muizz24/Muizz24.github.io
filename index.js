@@ -1,3 +1,5 @@
+
+
 $("#SoftwareExpPanel").hover(
     function() {
        $('.softwareDevCard').collapse('show');
@@ -28,4 +30,28 @@ $("#DatabaseExpPanel").hover(
      }, function() {
        $('.databaseCard').collapse('hide');
      }
+);
+
+$("#SoftwareIconProjs").hover(
+  function() {
+    document.getElementById("projTitleText").innerHTML = "Software Development";
+  }
+);
+
+$("#SoftwareIconProjs").click(
+  function() {
+    $('#ProjectsList').collapse('show');
+  }
+);
+
+$("#GameDevIconProjs").hover(
+  function() {
+    document.getElementById("projTitleText").innerHTML = "Game Development";
+  }
+);
+
+$("#WebDevIconProjs").hover(
+  function() {
+    document.getElementById("projTitleText").innerHTML = "Web Development";
+  }
 );
