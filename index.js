@@ -1,16 +1,17 @@
 var defaultTitle = "";
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
-'<div class="col-sm-7">' +
+'   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body">' +
 '            <h5 class="card-title">Frantic</h5>' +
 '            <p class="card-text">Personal Third person shooter project set on a world in the future. On going project with conitnuous updates and devlogs soon to be posted on a seperate site of my own. Game includes over 100+ game mechanics, Fully functional multiplayer system, Smart AI, 9 characters, multiple maps and gamemodes, and optimized user friendly gameplay.<br><br><br></p>' +
 '            <a href="#" class="disabled btn btn-primary">Link Coming Soon</a>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>C++, Unreal Engine 4, Blender, AWS, Photoshop, OOP, Interfaces, Parent-child relationships, Abstract classes, Dependency Injection principles, Singleton classes, Observer design patterns, Client-Server model.</i> </p>' +
 '        </div>' +
-'</div>' +
-'<div class="col-sm-5">' +
-'    <img class="about-img" src="media/FranticLogo.PNG" alt="">' +
-'</div>' +
+'   </div>' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/FranticLogo.PNG" alt="FranticLogo">' +
+'   </div>' +
 '</div>';
 var softwareDevContent = '';
 var webDevContent = '';
