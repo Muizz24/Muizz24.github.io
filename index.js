@@ -15,7 +15,21 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 '   </div>' +
 '</div>';
 
-var softwareDevContent = '';
+var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
+'<div class="row">' +
+'   <div class="col-sm-7">' +
+'        <div class="d-flex flex-column align-content-center card-body">' +
+'            <h5 class="card-title">J-Shell</h5>' +
+'            <p class="card-text">Mocked command line interface with only Java with 15+ cmd commands such as cat, echo, curl and more listed below on an artificial FileSystem. The code was done with a group of 3 friends through a 4 month agile scrum method.<br><br><br></p>' +
+'            <a href="https://github.com/Muizz24/J-Shell" class="btn btn-primary">Github Page</a>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Java, Singleton, Dependency Injection Pattern, abstract classes, interfaces, Agile Scrum methodology</i> </p>' +
+'        </div>' +
+'   </div>' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
+'   </div>' +
+'</div>';
+
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
