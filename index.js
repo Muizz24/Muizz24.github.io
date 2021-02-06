@@ -1,4 +1,4 @@
-var defaultTitle = "";
+var defaultTitle = "Click an Icon To View More";
 
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
