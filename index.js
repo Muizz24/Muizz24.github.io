@@ -11,7 +11,7 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 '        </div>' +
 '   </div>' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/FranticLogo.PNG" alt="FranticLogo">' +
+'       <img class="about-img" src="media/FranticLogo.png" alt="FranticLogo">' +
 '   </div>' +
 '</div>';
 
