@@ -28,6 +28,20 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '   <div class="col-sm-5">' +
 '       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
 '   </div>' +
+'</div>' +
+'<div class="collapse projectsListCollapse single-doBlock">' +
+'<div class="row">' +
+'   <div class="col-sm-7">' +
+'        <div class="d-flex flex-column align-content-center card-body">' +
+'            <h5 class="card-title">Hyper Sudoku Solver</h5>' +
+'            <p class="card-text">Quick Python Algorithm designed to solve hyper Sudoku boards in the most efficent time possible by using dynamic programming to back track and find the best possible solutions<br><br><br></p>' +
+'            <a href="https://github.com/Muizz24/HyperSudokuSolver" class="btn btn-primary">Github Page</a>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Python, Dynamic Programming</i> </p>' +
+'        </div>' +
+'   </div>' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
+'   </div>' +
 '</div>';
 
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
@@ -51,7 +65,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '            <h5 class="card-title">DFI ChatBot</h5>' +
 '            <p class="card-text">Developed a Chatbot for DFI to respond to the FAQ of clients and to engage in conversation. Bot parses and learns messages sent to it through IBM Watson and returns a proper reply. If a response cannot be understood, users with access to the chatbot can check and give the chatbot answers to learn.<br><br><br></p>' +
 '            <a href="https://www.youtube.com/watch?v=1O1feSI_Nao&ab_channel=Monipoly100" class="btn btn-primary">Chatbot Demo</a>' +
-'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>MongoDB, React, Spring MVC, Maven, Java, Javascript, HTML and CSS, REST</i> </p>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>MongoDB, React, Spring MVC, Maven, Java, Javascript, HTML and CSS, REST, JUnit</i> </p>' +
 '        </div>' +
 '   </div>' +
 '   <div class="col-sm-5">' +
