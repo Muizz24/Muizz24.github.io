@@ -129,10 +129,15 @@ slider-area:before{
 
 .about-img img{
     width: 100%;
+    padding-top: 5%;
 }
 
 .about-area{
     background: rgb(255,255,255);
+}
+
+.about-area p{
+    font-size: 15px;
 }
 
 item-text{
@@ -144,7 +149,7 @@ item-text{
 }
 
 .item-text h4{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /*stats section*/
