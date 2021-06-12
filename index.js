@@ -3,7 +3,7 @@ var defaultTitle = "Click an Icon To View More";
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
-'        <div class="d-flex flex-column align-content-center card-body">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Frantic</h5>' +
 '            <p class="card-text">Personal Third person shooter project set on a world in the future. On going project with conitnuous updates and devlogs soon to be posted on a seperate site of my own. Game includes over 100+ game mechanics, Fully functional multiplayer system, Smart AI, 9 characters, multiple maps and gamemodes, and optimized user friendly gameplay.<br><br><br></p>' +
 '            <a href="#" class="disabled btn btn-primary">Link Coming Soon</a>' +
@@ -18,7 +18,7 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
-'        <div class="d-flex flex-column align-content-center card-body">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">J-Shell</h5>' +
 '            <p class="card-text">Mocked command line interface with only Java with 15+ cmd commands such as cat, echo, curl and more listed below on an artificial FileSystem. The code was done with a group of 3 friends through a 4 month agile scrum method.<br><br><br></p>' +
 '            <a href="https://github.com/Muizz24/J-Shell" class="btn btn-primary">Github Page</a>' +
@@ -32,7 +32,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
-'        <div class="d-flex flex-column align-content-center card-body">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Hyper Sudoku Solver</h5>' +
 '            <p class="card-text">Quick Python Algorithm designed to solve hyper Sudoku boards in the most efficent time possible by using dynamic programming to back track and find the best possible solutions<br><br><br></p>' +
 '            <a href="https://github.com/Muizz24/HyperSudokuSolver" class="btn btn-primary">Github Page</a>' +
@@ -47,7 +47,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
-'        <div class="d-flex flex-column align-content-center card-body">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Web Gallery</h5>' +
 '            <p class="card-text">Localized gallery system capable of running a website that can upload images, store comments for those images, and allow users to own their own galleries. Similiar to how Instagram functions, users are allowed to view other user galleries, delete their own images or comments on their images, and make accounts. All code follows a REST API and communicates through the DOM with clean HTML and CSS while storing user data, images, and comments through a nedbeans database.<br><br><br></p>' +
 '            <a href="https://github.com/Muizz24/Web-Gallery" class="btn btn-primary">Github Page</a>' +
@@ -61,7 +61,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
-'        <div class="d-flex flex-column align-content-center card-body">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">DFI ChatBot</h5>' +
 '            <p class="card-text">Developed a Chatbot for DFI to respond to the FAQ of clients and to engage in conversation. Bot parses and learns messages sent to it through IBM Watson and returns a proper reply. If a response cannot be understood, users with access to the chatbot can check and give the chatbot answers to learn.<br><br><br></p>' +
 '            <a href="https://www.youtube.com/watch?v=1O1feSI_Nao&ab_channel=Monipoly100" class="btn btn-primary">Chatbot Demo</a>' +

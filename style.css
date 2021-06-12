@@ -28,9 +28,7 @@ body{
 
 .subTitleIcon{
     position: relative;
-    padding-right: 4px;
     padding-top: 4px;
-    padding-bottom: 4px;
 }
 
 html {
@@ -54,11 +52,12 @@ html {
 }
 
 .section-padding{
-    padding: 25px 0;
+    padding: 0;
 }
 
 .section-header{
     padding-bottom: 30px;
+
 }
 
 .section-header h3{
@@ -96,13 +95,20 @@ html {
 }
 
 .centerContacts {
-    position: absolute;
+    position: relative;
     text-align: center;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
 }
+
+.centerContacts > * {
+    flex: 1 0 auto;
+    /* optional: determine the minimum width of the cell before it breaks into the next line */
+    min-width: 45%;
+  }
 
 .subTitleContactInfo{
     color: #ffff !important;
@@ -172,9 +178,6 @@ slider-area:before{
     font-size: 15px;
 }
 
-item-text{
-    padding-left: 15px;
-}
 
 .about-img{
     padding-right: 15px;
@@ -182,6 +185,11 @@ item-text{
 
 .item-text h4{
     margin-bottom: 20px;
+}
+
+.item-text p{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*stats section*/
@@ -254,4 +262,12 @@ item-text{
     background: #262626;
     color: #ffff;
     transition: .3s
+}
+
+.title-text h2{
+    margin: 5px;
+}
+
+.iconProj button {
+    padding: 10px;
 }
