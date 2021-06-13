@@ -3,7 +3,7 @@ var defaultTitle = "Click an Icon To View More";
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/FranticLogo.png" alt="FranticLogo">' +
+'       <img class="project-img" src="media/FranticLogo.png" alt="FranticLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -18,7 +18,7 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
+'       <img class="project-img" src="media/JShellIcon.png" alt="JShellLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -28,10 +28,11 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Java, Singleton, Dependency Injection Pattern, abstract classes, interfaces, Agile Scrum methodology</i> </p>' +
 '        </div>' +
 '   </div>' +
-'</div>' +
+    '</div>' +
+    '<div class="row-Seperator-Proj"></div>' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
+'       <img class="project-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -46,7 +47,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
+'       <img class="project-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -56,10 +57,11 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Nedbeans, REST, DOM, HTML, CSS, Javascript, Node.js, nodemon, express.js, crypt. </i> </p>' +
 '        </div>' +
 '   </div>' +
-'</div>' +
+    '</div>' +
+    '<div class="row-Seperator-Proj"></div>' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
+'       <img class="project-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -148,7 +150,7 @@ $("#GameDevIconProjs").click(
 
 $("#WebDevIconProjs").hover(
   function() {
-    document.getElementById("projTitleText").innerHTML = "Web Development";
+    document.getElementById("projTitleText").innerHTML = "FullStack Development";
   }, function() {
     if (defaultTitle === ""){
 
@@ -160,7 +162,7 @@ $("#WebDevIconProjs").hover(
 
 $("#WebDevIconProjs").click(
   function() {
-    defaultTitle = "Web Development";
+    defaultTitle = "FullStack Development";
     document.getElementById("projTitleText").innerHTML = defaultTitle;
     document.getElementById("ProjectListInfo").innerHTML = webDevContent;
     $('.projectsListCollapse').collapse('show');
