@@ -2,6 +2,9 @@ var defaultTitle = "Click an Icon To View More";
 
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/FranticLogo.png" alt="FranticLogo">' +
+'   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Frantic</h5>' +
@@ -10,13 +13,13 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>C++, Unreal Engine 4, Blender, AWS, Photoshop, OOP, Interfaces, Parent-child relationships, Abstract classes, Dependency Injection principles, Singleton classes, Observer design patterns, Client-Server model.</i> </p>' +
 '        </div>' +
 '   </div>' +
-'   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/FranticLogo.png" alt="FranticLogo">' +
-'   </div>' +
 '</div>';
 
 var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
+'   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">J-Shell</h5>' +
@@ -25,11 +28,11 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Java, Singleton, Dependency Injection Pattern, abstract classes, interfaces, Agile Scrum methodology</i> </p>' +
 '        </div>' +
 '   </div>' +
-'   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
-'   </div>' +
 '</div>' +
 '<div class="row">' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
+'   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Hyper Sudoku Solver</h5>' +
@@ -38,13 +41,13 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Python, Dynamic Programming</i> </p>' +
 '        </div>' +
 '   </div>' +
-'   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
-'   </div>' +
 '</div>';
 
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
+'   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">Web Gallery</h5>' +
@@ -53,11 +56,11 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Nedbeans, REST, DOM, HTML, CSS, Javascript, Node.js, nodemon, express.js, crypt. </i> </p>' +
 '        </div>' +
 '   </div>' +
-'   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
-'   </div>' +
 '</div>' +
 '<div class="row">' +
+'   <div class="col-sm-5">' +
+'       <img class="about-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
+'   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
 '            <h5 class="card-title">DFI ChatBot</h5>' +
@@ -66,9 +69,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>MongoDB, React, Spring MVC, Maven, Java, Javascript, HTML and CSS, REST, JUnit</i> </p>' +
 '        </div>' +
 '   </div>' +
-'   <div class="col-sm-5">' +
-'       <img class="about-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
-'   </div>' +
+
 '</div>';
 
 $("#SoftwareExpPanel").hover(

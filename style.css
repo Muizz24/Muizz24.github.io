@@ -28,8 +28,7 @@ body{
 
 .subTitleIcon{
     position: relative;
-    padding-top: 4px;
-}
+    transform: translateY(-5px);}
 
 html {
     padding:0;
@@ -85,6 +84,8 @@ html {
 .subTitleContactInfo-seperatorFront{
     color: #ffff !important;
     font-weight: bold;
+    font-size: 30px;
+    transform: translateY(-15px);
 }
 
 .centerContacts {
@@ -264,7 +265,17 @@ slider-area:before{
 }
 
 .title-text h2{
-    margin: 5px;
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.title-text{
+    position: relative;
+    justify-content: center;
 }
 
 .iconProj button {
