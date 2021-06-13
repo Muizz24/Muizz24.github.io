@@ -52,12 +52,11 @@ html {
 }
 
 .section-padding{
-    padding: 0;
+    padding: 25px 0;
 }
 
 .section-header{
     padding-bottom: 30px;
-
 }
 
 .section-header h3{
@@ -82,32 +81,32 @@ html {
     font-weight: bold;
 }
 
-.subTitleContactInfo-seperator{
-    width: 5%;
-    color: #ffff !important;
-    font-weight: bold;
-}
 
 .subTitleContactInfo-seperatorFront{
-    width: 5%;
     color: #ffff !important;
     font-weight: bold;
 }
 
 .centerContacts {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contactSection {
     position: relative;
     text-align: center;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
 }
 
 .centerContacts > * {
     flex: 1 0 auto;
     /* optional: determine the minimum width of the cell before it breaks into the next line */
-    min-width: 45%;
+    min-width: 5%;
   }
 
 .subTitleContactInfo{

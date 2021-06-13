@@ -29,7 +29,6 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '       <img class="about-img" src="media/JShellIcon.png" alt="JShellLogo">' +
 '   </div>' +
 '</div>' +
-'<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -58,7 +57,6 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '       <img class="about-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
 '</div>' +
-'<div class="collapse projectsListCollapse single-doBlock">' +
 '<div class="row">' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
