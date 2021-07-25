@@ -181,6 +181,7 @@ slider-area:before{
 .projectsArray{
     align-content: center;
     overflow: hidden;
+    background: white;
 }
 
 .about-area{
@@ -191,6 +192,24 @@ slider-area:before{
     font-size: 15px;
 }
 
+#projects {
+    position: relative;
+}
+
+.projectsWrapper{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    opacity: 0.1;
+    background-image: url("./media/seamless.jpg");
+}
+
+.projectValues {
+    background-color: white;
+    overflow: auto;
+}
 
 .about-img{
     padding-right: 15px;
@@ -198,6 +217,7 @@ slider-area:before{
 
 .item-text h4{
     margin-bottom: 20px;
+    margin-left: 9px;
 }
 
 .item-text p{
@@ -273,11 +293,9 @@ slider-area:before{
 
 @media (max-width:700px){
     .title-text h2{
-        position: absolute;
-        margin: auto;
-        top: auto;
+        position: relative;
         width: 100%;
-        height: 100%;
+        height: 75%;
         text-align: center;
     }
 
@@ -285,13 +303,13 @@ slider-area:before{
 
 @media (min-width:750px){
     .title-text h2{
-        position: absolute;
-        margin: auto;
-        top: 25%;
+        position: relative;
         width: 100%;
-        height: 100%;
+        height: 75%;
         text-align: center;
     }
+
+   
 
 }
 
@@ -305,13 +323,25 @@ slider-area:before{
 
 
 .title-text{
+    display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
+    height: 5vh;
+    width: 100%;
+    background: white;
+}
+
+.iconProj {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .iconProj button {
     padding: 10px;
+    width: 100%;
 }
 
 .project-img {

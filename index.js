@@ -53,7 +53,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '</div>';
 
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
-'<div class="row">' +
+'<div class="row projectValues">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
@@ -67,7 +67,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '   </div>' +
     '</div>' +
     '<div class="row-Seperator-Proj"></div>' +
-'<div class="row">' +
+'<div class="row projectValues">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
