@@ -3,9 +3,9 @@
 var defaultTitle = "Click an Icon To View More";
 
 var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
-'<div class="row">' +
+'<div class="row projImgContainer">' +
 '   <div class="col-sm-5">' +
-'       <img class="project-img" src="media/FranticLogo.png" alt="FranticLogo">' +
+'       <img class="project-imgFrantic" src="media/FranticLogo.png" alt="FranticLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
 '        <div class="d-flex flex-column align-content-center card-body item-text">' +
@@ -18,7 +18,7 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock p
 '</div>';
 
 var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
-'<div class="row">' +
+'<div class="row projImgContainer">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/JShellIcon.png" alt="JShellLogo">' +
 '   </div>' +
@@ -35,8 +35,8 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '   </div>' +
     '</div>' +
     '<div class="row-Seperator-Proj"></div>' +
-'<div class="row">' +
-'   <div class="col-sm-5">' +
+'<div class="row projImgContainer">' +
+'   <div class="col-sm-5 " >' +
 '       <img class="project-img" src="media/sudokuIcon.png" alt="JShellLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
@@ -53,7 +53,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '</div>';
 
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
-'<div class="row">' +
+'<div class="row projImgContainer">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
@@ -67,7 +67,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock pr
 '   </div>' +
     '</div>' +
     '<div class="row-Seperator-Proj"></div>' +
-'<div class="row">' +
+'<div class="row projImgContainer">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
