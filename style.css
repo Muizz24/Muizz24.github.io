@@ -151,8 +151,20 @@ slider-area:before{
 }
 
 .projBtns {
+    padding: 5%;
     width: 40%;
     height: auto;
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.projBtns p {
+    padding: 0 0;
+    margin: 0 0;
 }
 
 .slider-text a{
@@ -366,6 +378,11 @@ slider-area:before{
         background: linear-gradient(90deg, rgba(0,168,255,0.3785889355742297) 0%, rgba(112,207,249,0.27494747899159666) 23%, rgba(255,255,255,0) 84%);
     }
 
+    .projImgContainer {
+        left: 4.5%;
+        padding-top: 5%;
+    }
+
 }
 
 @media (min-width:750px){
@@ -412,7 +429,6 @@ slider-area:before{
 }
 
 .project-img {
-    padding: 15px;
     height: auto;
     width: 60%;
 }

@@ -44,7 +44,7 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '            <h5 class="card-title">Hyper Sudoku Solver</h5>' +
 '            <p class="card-text">Quick Python Algorithm designed to solve hyper Sudoku boards in the most efficent time possible by using dynamic programming to back track and find the best possible solutions<br><br><br></p>' +             
 '             <div class="projBtnsContainer">' +
-'               <a href="./projects/HyperSudoku.html" class="projBtns btn btn-primary">Demo</a>' +
+'               <a href="./projects/HyperSudoku.html" class="btn btn-primary projBtns"><p>Demo</p></a>' +
 '               <a href="https://github.com/Muizz24/HyperSudokuSolver" class="projBtns btn btn-primary">Github Page</a>' +
 '             </div>' +
 '            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>Python, Dynamic Programming</i> </p>' +
