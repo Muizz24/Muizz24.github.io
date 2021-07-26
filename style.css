@@ -332,6 +332,14 @@ slider-area:before{
     background: #262626;
 }
 
+.myContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 @media (max-width:700px){
     .title-text h2{
         position: relative;
@@ -350,6 +358,7 @@ slider-area:before{
     }
 
     .contacts-area {
+        
         border-left: 2px solid white;
         border-bottom: none;
         padding: 1.25%;
