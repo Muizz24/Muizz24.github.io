@@ -55,7 +55,7 @@ html {
 }
 
 .section-header{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .section-header h3{
@@ -172,10 +172,11 @@ slider-area:before{
 }
 
 .about-img img{
+    display: flex;
     height: auto;
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .projectsArray{
@@ -185,6 +186,7 @@ slider-area:before{
 }
 
 .about-area{
+    position: relative;
     background: rgb(255,255,255);
 }
 
@@ -194,6 +196,7 @@ slider-area:before{
 
 #projects {
     position: relative;
+    opacity: 1;
 }
 
 .projectsWrapper{
@@ -206,13 +209,32 @@ slider-area:before{
     background-image: url("./media/seamless.jpg");
 }
 
+.aboutWriting {
+    position: relative;
+    background: white;
+    opacity: 1;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    overflow:hidden;
+}
+
 .projectValues {
-    background-color: white;
-    overflow: auto;
+    position: relative;
+    background: white;
+    opacity: 1;
+    border-left: 2px solid #36454F;
+    border-right: 2px solid #36454F;
 }
 
 .about-img{
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
     padding-right: 15px;
+    background-image: url('./media/mathInfo.png');
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .item-text h4{

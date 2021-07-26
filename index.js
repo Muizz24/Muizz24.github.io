@@ -2,7 +2,7 @@
 
 var defaultTitle = "Click an Icon To View More";
 
-var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
+var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/FranticLogo.png" alt="FranticLogo">' +
@@ -17,7 +17,7 @@ var gameDevContent = '<div class="collapse projectsListCollapse single-doBlock">
 '   </div>' +
 '</div>';
 
-var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
+var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
 '<div class="row">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/JShellIcon.png" alt="JShellLogo">' +
@@ -52,8 +52,8 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 '   </div>' +
 '</div>';
 
-var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">' +
-'<div class="row projectValues">' +
+var webDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
+'<div class="row">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
@@ -67,7 +67,7 @@ var webDevContent = '<div class="collapse projectsListCollapse single-doBlock">'
 '   </div>' +
     '</div>' +
     '<div class="row-Seperator-Proj"></div>' +
-'<div class="row projectValues">' +
+'<div class="row">' +
 '   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/chatbotIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
