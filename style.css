@@ -230,6 +230,16 @@ slider-area:before{
     opacity: 1;
 }
 
+
+.companyLogo {
+    width: 128px !important;
+    height: 128px  !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
 .projectsWrapper{
     width: 100%;
     height: 100%;
@@ -262,6 +272,18 @@ slider-area:before{
     justify-content: flex-end;
     display: flex;
     padding-right: 15px;
+    background-image: url('./media/mathInfo.png');
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.company-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     background-image: url('./media/mathInfo.png');
     width: 100%;
     height: 100%;
@@ -335,6 +357,11 @@ slider-area:before{
 
 .spacer{
     padding: 150px;
+}
+
+
+.spacer-small{
+    padding: 50px;
 }
 
 /*contact section*/
