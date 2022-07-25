@@ -63,6 +63,15 @@ html {
     color: #36454F;
 }
 
+h3 a{
+    font-weight: bold;
+    color: #36454F;
+}
+
+h3 a:hover{
+    text-decoration: none;
+}
+
 .navbar-brand{
     color: #ffff !important;
     text-transform: uppercase;
@@ -258,6 +267,19 @@ slider-area:before{
     padding-top: 2vh;
     padding-bottom: 2vh;
     overflow:hidden;
+}
+
+.company-logo-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+    color: #262626;
+}
+
+.company-logo-list a {
+    color: #262626;
 }
 
 .projectValues {
