@@ -55,6 +55,21 @@ var softwareDevContent = '<div class="collapse projectsListCollapse single-doBlo
 var webDevContent = '<div class="collapse projectsListCollapse single-doBlock projectValues">' +
 '<div class="row projImgContainer">' +
 '   <div class="col-sm-5">' +
+'       <img class="project-img" src="media/Buzzerr.png" alt="BuzzerrLogo">' +
+'   </div>' +
+'   <div class="col-sm-7">' +
+'        <div class="d-flex flex-column align-content-center card-body item-text">' +
+'            <h5 class="card-title">Buzzerr</h5>' +
+'            <p class="card-text">Buzzerr is a social media platform that enables students into a social environment which helps them slowly integrate themselves into their career path along with network with like minded people. This can be done by connecting to people in similar universities, joining events listed on buzzerr based on universities and degrees, socialize with other people either in degree dedicated forums or through direct or group conversations using our messaging platform!<br><br><br></p>' +
+'            <a href="./projects/Buzzerr.html" class="btn btn-primary">Demo</a>' +
+'            <p class="card-text"><b>Tools, Techniques, and Languages Used:</b> <i>MongoDB, Firebase, REST, DOM, HTML, CSS, Javascript, Node.js, Next.js </i> </p>' +
+'        </div>' +
+'   </div>' +
+    '</div>' +
+    '<div class="row-Seperator-Proj"></div>' +
+'<div class="collapse projectsListCollapse single-doBlock projectValues">' +
+'<div class="row projImgContainer">' +
+'   <div class="col-sm-5">' +
 '       <img class="project-img" src="media/webGalleryIcon.png" alt="Web-GalleryLogo">' +
 '   </div>' +
 '   <div class="col-sm-7">' +
