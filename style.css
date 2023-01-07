@@ -72,6 +72,10 @@ h3 a:hover{
     text-decoration: none;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .navbar-brand{
     color: #ffff !important;
     text-transform: uppercase;
@@ -414,7 +418,6 @@ slider-area:before{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 @media (max-width:700px){
