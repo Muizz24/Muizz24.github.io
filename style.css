@@ -45,7 +45,6 @@ html {
 }
 
 .section-line-seperator{
-    border-bottom: medium solid #ffffff;
     margin: 5px;
     text-align: center;
 }
@@ -59,6 +58,11 @@ html {
 }
 
 .section-header h3{
+    font-weight: bold;
+    color: #36454F;
+}
+
+.section-header h3 a{
     font-weight: bold;
     color: #36454F;
 }
@@ -202,6 +206,13 @@ slider-area:before{
     background: linear-gradient(0deg, rgba(0,168,255,0.3785889355742297) 0%, rgba(112,207,249,0.27494747899159666) 23%, rgba(255,255,255,0) 84%);
 }
 
+.contacts-area-footer {
+    border-top: 2px solid white;
+    padding: 1.25%;
+    background: rgb(0,168,255);
+    background: linear-gradient(180deg, rgba(0,168,255,0.3785889355742297) 0%, rgba(112,207,249,0.27494747899159666) 23%, rgba(255,255,255,0) 84%);
+}
+
 .single-statsContact {
     margin-top: 5%;
     margin-bottom: 10%;
@@ -252,6 +263,15 @@ slider-area:before{
     align-items: center;
     border-radius: 12px;
     border: 3px solid black;
+}
+
+.recomendationLogo {
+    width: 85px !important;
+    height: 85px  !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 .projectsWrapper{
@@ -318,7 +338,20 @@ slider-area:before{
     padding: 12px;
 }
 
-.text-company{
+.recomendation-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-image: url('./media/mathInfo.png');
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 12px;
+}
+
+.text-company, .text-recomendation{
     background-color: white;
     border-radius: 12px;
     align-items: center;
@@ -332,6 +365,10 @@ slider-area:before{
     margin: 8px;
 }
 
+.text-recomendation p {
+    text-align: center;
+}
+
 .item-text h4{
     margin-bottom: 20px;
     margin-left: 9px;
@@ -340,6 +377,17 @@ slider-area:before{
 .item-text p{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.item-text-recomendation p{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.item-text-recomendation h4{
+    font-weight: bold;
+    color: #36454F;
 }
 
 /*stats section*/
