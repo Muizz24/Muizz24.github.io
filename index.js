@@ -191,3 +191,42 @@ $("#WebDevIconProjs").click(
     $('.projectsListCollapse').collapse('show');
   }
 );
+
+const employement_start_date = new Date('May 1, 2021');
+
+const calculateDiff = (dates) => {
+  const date1 = dates[0];
+  const date2 = dates.length > 1 ? dates[1] : new Date();
+  let yearsDiff = date2.getFullYear() - date1.getFullYear();
+  let monthsDiff = date2.getMonth() - date1.getMonth();
+  let totalMonthsDiff = (yearsDiff * 12) + (monthsDiff + 1);
+
+  monthsDiff = Math.abs(monthsDiff) + 1;
+  
+  if (totalMonthsDiff > 12 && !(totalMonthsDiff & 12)) {
+    return `${yearsDiff} yr${yearsDiff > 1 ? 's' : ''} ${monthsDiff} mo${monthsDiff > 1 ? 's' : ''}`
+  } else if (totalMonthsDiff < 12) {
+    return `${totalMonthsDiff} mo${totalMonthsDiff > 1 ? 's' : ''}`
+  } else {
+    return `${yearsDiff} yr${yearsDiff > 1 ? 's' : ''}`
+  }
+}
+
+const startDates = {
+  okta: [new Date('May 1, 2024')],
+  outlier: [new Date('December 1, 2024')],
+  greencube: [new Date('August 1, 2021'), new Date('June 1, 2022')],
+  commercebear: [new Date('June 1, 2022'), new Date('December 1, 2023')],
+  dfi: [new Date('May 1, 2019'), new Date('August 1, 2019')]
+}
+
+Object.keys(startDates).forEach((key) => {
+  document.getElementById(key).innerHTML = `<i>${calculateDiff(startDates[key])}</i>`;
+})
+
+const experience = calculateDiff([employement_start_date]);
+document.getElementById('total-experience').innerHTML = experience;
+
+// Assuming I drink a coffee a day :D
+const coffees = Math.floor(1.6 * ((new Date() - employement_start_date) / (1000 * 3600 * 24)));
+document.getElementById('coffeeCups').innerHTML = (coffees).toString();
